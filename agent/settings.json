@@ -1,0 +1,14 @@
+{
+  "lastChangelogVersion": "0.75.5",
+  "defaultProvider": "github-copilot",
+  "defaultModel": "claude-sonnet-4.6",
+  "defaultThinkingLevel": "high",
+  "packages": [
+    "npm:pi-llama-cpp",
+    "npm:@dreki-gg/pi-ask-mode",
+    "npm:pi-ask-user",
+    "npm:pi-sandbox",
+    "npm:@gotgenes/pi-permission-system"
+  ],
+  "llamaServerUrl": "http://127.0.0.1:9090"
+}

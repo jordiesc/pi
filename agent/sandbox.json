@@ -1,0 +1,9 @@
+{
+  "filesystem": {
+    "allowWrite": [
+      "/usr/bin/sudo"
+    ],
+    "denyRead": [],
+    "denyWrite": []
+  }
+}
