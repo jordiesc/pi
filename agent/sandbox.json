@@ -1,9 +1,16 @@
 {
+  "enabled": true,
+  "allowBrowserProcess": true,
+  "network": {
+    "allowLocalBinding": true,
+    "allowAllUnixSockets": true,
+    "allowedDomains": ["github.com", "*.github.com"],
+    "deniedDomains": ["gitlab.devstack.vwgroup.com"]
+  },
   "filesystem": {
-    "allowWrite": [
-      "/usr/bin/sudo"
-    ],
-    "denyRead": [],
-    "denyWrite": []
+    "denyRead": ["/Users", "/home"],
+    "allowRead": [".", "~/.config", "~/.local", "Library"],
+    "allowWrite": [".", "/tmp"],
+    "denyWrite": [".env", ".env.*", "*.pem", "*.key"]
   }
 }

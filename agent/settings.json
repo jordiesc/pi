@@ -1,7 +1,7 @@
 {
-  "lastChangelogVersion": "0.75.5",
-  "defaultProvider": "github-copilot",
-  "defaultModel": "claude-sonnet-4.6",
+  "lastChangelogVersion": "0.79.8",
+  "defaultProvider": "deepseek",
+  "defaultModel": "deepseek-v4-flash",
   "defaultThinkingLevel": "high",
   "packages": [
     "npm:pi-llama-cpp",
@@ -10,5 +10,6 @@
     "npm:pi-sandbox",
     "npm:@gotgenes/pi-permission-system"
   ],
-  "llamaServerUrl": "http://127.0.0.1:9090"
+  "llamaServerUrl": "http://127.0.0.1:9090",
+  "theme": "dark"
 }
