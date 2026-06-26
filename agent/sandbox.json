@@ -9,8 +9,25 @@
   },
   "filesystem": {
     "denyRead": ["/Users", "/home"],
-    "allowRead": [".", "~/.config", "~/.local", "Library"],
-    "allowWrite": [".", "/tmp"],
-    "denyWrite": [".env", ".env.*", "*.pem", "*.key"]
+    "allowRead": [
+      ".",
+      "~/.config",
+      "~/.local",
+      "~/Library",
+      "/Users/fhslqoi/.local",
+      "~/Library/Application Support/rtk"
+    ],
+    "allowWrite": [
+      ".",
+      "/tmp",
+      "~/Library/Application Support/rtk",
+      "/Users/fhslqoi/Library/Application Support/rtk"
+    ],
+    "denyWrite": [
+      ".env",
+      ".env.*",
+      "*.pem",
+      "*.key"
+    ]
   }
 }

@@ -9,12 +9,14 @@
     },
     "bash": {
       "rm -rf *": "deny",
+      "rtk rm -rf *": "deny",
       "sudo *": "ask",
       "git *": "ask",
       "git push": "deny",
       "git log *": "allow",
       "git diff": "allow",
-      "ssh *": "deny"
+      "ssh *": "deny",
+      "rtk ssh *":"deny"
     },
     "external_directory": "ask"
   }
