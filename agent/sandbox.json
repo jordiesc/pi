@@ -15,13 +15,13 @@
       "~/.local",
       "~/Library",
       "/Users/fhslqoi/.local",
-      "~/Library/Application Support/rtk"
+      "/Users/fhslqoi/jordi"
     ],
     "allowWrite": [
       ".",
       "/tmp",
-      "~/Library/Application Support/rtk",
-      "/Users/fhslqoi/Library/Application Support/rtk"
+      "/Users/fhslqoi/jordi",
+      "~/Library/Application Support/rtk"
     ],
     "denyWrite": [
       ".env",
